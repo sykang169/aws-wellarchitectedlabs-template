@@ -1,0 +1,905 @@
+{
+  "version": "4.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "WellArchitectedFrameworkLabsStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "WellArchitectedFrameworkLabsStack.template.json"
+      },
+      "metadata": {
+        "/WellArchitectedFrameworkLabsStack/VPC/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCB9E5F0B4",
+            "trace": [
+              "new Vpc (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:344:25)",
+              "new WellArchitectedFrameworkLabs (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:15:21)",
+              "Object.<anonymous> (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:70:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/WellArchitectedFrameworkLabsStack/VPC/PublicSubnet1/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPublicSubnet1SubnetB4246D30",
+            "trace": [
+              "new Subnet (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:622:24)",
+              "new PublicSubnet (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:779:9)",
+              "/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:551:42",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:535:32)",
+              "Vpc.createSubnets (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:531:18)",
+              "new Vpc (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:364:14)",
+              "new WellArchitectedFrameworkLabs (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:15:21)",
+              "Object.<anonymous> (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:70:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/WellArchitectedFrameworkLabsStack/VPC/PublicSubnet1/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPublicSubnet1RouteTableFEE4B781",
+            "trace": [
+              "new Subnet (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:637:23)",
+              "new PublicSubnet (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:779:9)",
+              "/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:551:42",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:535:32)",
+              "Vpc.createSubnets (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:531:18)",
+              "new Vpc (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:364:14)",
+              "new WellArchitectedFrameworkLabs (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:15:21)",
+              "Object.<anonymous> (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:70:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/WellArchitectedFrameworkLabsStack/VPC/PublicSubnet1/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPublicSubnet1RouteTableAssociation0B0896DC",
+            "trace": [
+              "new Subnet (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:642:9)",
+              "new PublicSubnet (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:779:9)",
+              "/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:551:42",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:535:32)",
+              "Vpc.createSubnets (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:531:18)",
+              "new Vpc (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:364:14)",
+              "new WellArchitectedFrameworkLabs (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:15:21)",
+              "Object.<anonymous> (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:70:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/WellArchitectedFrameworkLabsStack/VPC/PublicSubnet1/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPublicSubnet1DefaultRoute91CEF279",
+            "trace": [
+              "PublicSubnet.addDefaultInternetRoute (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:669:23)",
+              "/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:375:30",
+              "Array.forEach (<anonymous>)",
+              "new Vpc (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:374:32)",
+              "new WellArchitectedFrameworkLabs (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:15:21)",
+              "Object.<anonymous> (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:70:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/WellArchitectedFrameworkLabsStack/VPC/PublicSubnet1/EIP": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPublicSubnet1EIP6AD938E8",
+            "trace": [
+              "PublicSubnet.addNatGateway (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:790:27)",
+              "NatGatewayProvider.configureNat (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/nat.js:56:33)",
+              "Vpc.createNatGateways (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:509:18)",
+              "new Vpc (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:380:22)",
+              "new WellArchitectedFrameworkLabs (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:15:21)",
+              "Object.<anonymous> (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:70:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/WellArchitectedFrameworkLabsStack/VPC/PublicSubnet1/NATGateway": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPublicSubnet1NATGatewayE0556630",
+            "trace": [
+              "PublicSubnet.addNatGateway (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:788:21)",
+              "NatGatewayProvider.configureNat (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/nat.js:56:33)",
+              "Vpc.createNatGateways (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:509:18)",
+              "new Vpc (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:380:22)",
+              "new WellArchitectedFrameworkLabs (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:15:21)",
+              "Object.<anonymous> (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:70:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/WellArchitectedFrameworkLabsStack/VPC/PublicSubnet2/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPublicSubnet2Subnet74179F39",
+            "trace": [
+              "new Subnet (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:622:24)",
+              "new PublicSubnet (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:779:9)",
+              "/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:551:42",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:535:32)",
+              "Vpc.createSubnets (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:531:18)",
+              "new Vpc (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:364:14)",
+              "new WellArchitectedFrameworkLabs (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:15:21)",
+              "Object.<anonymous> (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:70:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/WellArchitectedFrameworkLabsStack/VPC/PublicSubnet2/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPublicSubnet2RouteTable6F1A15F1",
+            "trace": [
+              "new Subnet (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:637:23)",
+              "new PublicSubnet (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:779:9)",
+              "/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:551:42",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:535:32)",
+              "Vpc.createSubnets (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:531:18)",
+              "new Vpc (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:364:14)",
+              "new WellArchitectedFrameworkLabs (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:15:21)",
+              "Object.<anonymous> (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:70:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/WellArchitectedFrameworkLabsStack/VPC/PublicSubnet2/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPublicSubnet2RouteTableAssociation5A808732",
+            "trace": [
+              "new Subnet (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:642:9)",
+              "new PublicSubnet (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:779:9)",
+              "/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:551:42",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:535:32)",
+              "Vpc.createSubnets (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:531:18)",
+              "new Vpc (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:364:14)",
+              "new WellArchitectedFrameworkLabs (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:15:21)",
+              "Object.<anonymous> (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:70:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/WellArchitectedFrameworkLabsStack/VPC/PublicSubnet2/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPublicSubnet2DefaultRouteB7481BBA",
+            "trace": [
+              "PublicSubnet.addDefaultInternetRoute (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:669:23)",
+              "/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:375:30",
+              "Array.forEach (<anonymous>)",
+              "new Vpc (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:374:32)",
+              "new WellArchitectedFrameworkLabs (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:15:21)",
+              "Object.<anonymous> (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:70:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/WellArchitectedFrameworkLabsStack/VPC/PublicSubnet2/EIP": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPublicSubnet2EIP4947BC00",
+            "trace": [
+              "PublicSubnet.addNatGateway (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:790:27)",
+              "NatGatewayProvider.configureNat (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/nat.js:56:33)",
+              "Vpc.createNatGateways (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:509:18)",
+              "new Vpc (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:380:22)",
+              "new WellArchitectedFrameworkLabs (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:15:21)",
+              "Object.<anonymous> (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:70:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/WellArchitectedFrameworkLabsStack/VPC/PublicSubnet2/NATGateway": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPublicSubnet2NATGateway3C070193",
+            "trace": [
+              "PublicSubnet.addNatGateway (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:788:21)",
+              "NatGatewayProvider.configureNat (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/nat.js:56:33)",
+              "Vpc.createNatGateways (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:509:18)",
+              "new Vpc (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:380:22)",
+              "new WellArchitectedFrameworkLabs (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:15:21)",
+              "Object.<anonymous> (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:70:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/WellArchitectedFrameworkLabsStack/VPC/PrivateSubnet1/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPrivateSubnet1Subnet8BCA10E0",
+            "trace": [
+              "new Subnet (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:622:24)",
+              "new PrivateSubnet (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:806:9)",
+              "/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:556:43",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:535:32)",
+              "Vpc.createSubnets (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:531:18)",
+              "new Vpc (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:364:14)",
+              "new WellArchitectedFrameworkLabs (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:15:21)",
+              "Object.<anonymous> (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:70:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/WellArchitectedFrameworkLabsStack/VPC/PrivateSubnet1/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPrivateSubnet1RouteTableBE8A6027",
+            "trace": [
+              "new Subnet (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:637:23)",
+              "new PrivateSubnet (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:806:9)",
+              "/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:556:43",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:535:32)",
+              "Vpc.createSubnets (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:531:18)",
+              "new Vpc (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:364:14)",
+              "new WellArchitectedFrameworkLabs (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:15:21)",
+              "Object.<anonymous> (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:70:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/WellArchitectedFrameworkLabsStack/VPC/PrivateSubnet1/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPrivateSubnet1RouteTableAssociation347902D1",
+            "trace": [
+              "new Subnet (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:642:9)",
+              "new PrivateSubnet (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:806:9)",
+              "/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:556:43",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:535:32)",
+              "Vpc.createSubnets (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:531:18)",
+              "new Vpc (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:364:14)",
+              "new WellArchitectedFrameworkLabs (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:15:21)",
+              "Object.<anonymous> (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:70:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/WellArchitectedFrameworkLabsStack/VPC/PrivateSubnet1/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPrivateSubnet1DefaultRouteAE1D6490",
+            "trace": [
+              "PrivateSubnet.addRoute (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:710:23)",
+              "NatGatewayProvider.configureSubnet (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/nat.js:67:16)",
+              "NatGatewayProvider.configureNat (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/nat.js:61:18)",
+              "Vpc.createNatGateways (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:509:18)",
+              "new Vpc (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:380:22)",
+              "new WellArchitectedFrameworkLabs (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:15:21)",
+              "Object.<anonymous> (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:70:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/WellArchitectedFrameworkLabsStack/VPC/PrivateSubnet2/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPrivateSubnet2SubnetCFCDAA7A",
+            "trace": [
+              "new Subnet (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:622:24)",
+              "new PrivateSubnet (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:806:9)",
+              "/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:556:43",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:535:32)",
+              "Vpc.createSubnets (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:531:18)",
+              "new Vpc (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:364:14)",
+              "new WellArchitectedFrameworkLabs (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:15:21)",
+              "Object.<anonymous> (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:70:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/WellArchitectedFrameworkLabsStack/VPC/PrivateSubnet2/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPrivateSubnet2RouteTable0A19E10E",
+            "trace": [
+              "new Subnet (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:637:23)",
+              "new PrivateSubnet (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:806:9)",
+              "/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:556:43",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:535:32)",
+              "Vpc.createSubnets (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:531:18)",
+              "new Vpc (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:364:14)",
+              "new WellArchitectedFrameworkLabs (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:15:21)",
+              "Object.<anonymous> (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:70:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/WellArchitectedFrameworkLabsStack/VPC/PrivateSubnet2/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPrivateSubnet2RouteTableAssociation0C73D413",
+            "trace": [
+              "new Subnet (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:642:9)",
+              "new PrivateSubnet (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:806:9)",
+              "/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:556:43",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:535:32)",
+              "Vpc.createSubnets (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:531:18)",
+              "new Vpc (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:364:14)",
+              "new WellArchitectedFrameworkLabs (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:15:21)",
+              "Object.<anonymous> (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:70:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/WellArchitectedFrameworkLabsStack/VPC/PrivateSubnet2/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCPrivateSubnet2DefaultRouteF4F5CFD2",
+            "trace": [
+              "PrivateSubnet.addRoute (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:710:23)",
+              "NatGatewayProvider.configureSubnet (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/nat.js:67:16)",
+              "NatGatewayProvider.configureNat (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/nat.js:61:18)",
+              "Vpc.createNatGateways (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:509:18)",
+              "new Vpc (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:380:22)",
+              "new WellArchitectedFrameworkLabs (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:15:21)",
+              "Object.<anonymous> (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:70:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/WellArchitectedFrameworkLabsStack/VPC/IGW": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCIGWB7E252D3",
+            "trace": [
+              "new Vpc (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:368:25)",
+              "new WellArchitectedFrameworkLabs (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:15:21)",
+              "Object.<anonymous> (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:70:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/WellArchitectedFrameworkLabsStack/VPC/VPCGW": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "VPCVPCGW99B986DC",
+            "trace": [
+              "new Vpc (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/vpc.js:370:25)",
+              "new WellArchitectedFrameworkLabs (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:15:21)",
+              "Object.<anonymous> (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:70:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/WellArchitectedFrameworkLabsStack/DatabaseSecurityGroup/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DatabaseSecurityGroup7319C0F6",
+            "trace": [
+              "new SecurityGroup (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/security-group.js:173:30)",
+              "new WellArchitectedFrameworkLabs (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:16:39)",
+              "Object.<anonymous> (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:70:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/WellArchitectedFrameworkLabsStack/DatabaseSecurityGroup/from 0.0.0.0_0:{IndirectPort}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "DatabaseSecurityGroupfrom00000IndirectPort16BA9BCA",
+            "trace": [
+              "SecurityGroup.addIngressRule (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/security-group.js:33:13)",
+              "SecurityGroup.addIngressRule (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/security-group.js:223:19)",
+              "/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/connections.js:89:31",
+              "ReactiveList.forEachAndForever (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/connections.js:191:13)",
+              "/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/connections.js:88:51",
+              "ReactiveList.forEachAndForever (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/connections.js:191:13)",
+              "Connections.allowFrom (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/connections.js:87:30)",
+              "Connections.allowFromAnyIpv4 (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/connections.js:123:14)",
+              "Connections.allowDefaultPortFromAnyIpv4 (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/connections.js:152:14)",
+              "new WellArchitectedFrameworkLabs (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:56:30)",
+              "Object.<anonymous> (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:70:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/WellArchitectedFrameworkLabsStack/ASG/InstanceSecurityGroup/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ASGInstanceSecurityGroup0525485D",
+            "trace": [
+              "new SecurityGroup (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/security-group.js:173:30)",
+              "new AutoScalingGroup (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-autoscaling/lib/auto-scaling-group.js:126:30)",
+              "new WellArchitectedFrameworkLabs (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:23:21)",
+              "Object.<anonymous> (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:70:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/WellArchitectedFrameworkLabsStack/ASG/InstanceSecurityGroup/from WellArchitectedFrameworkLabsStackLBSecurityGroup4680CF06:80": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ASGInstanceSecurityGroupfromWellArchitectedFrameworkLabsStackLBSecurityGroup4680CF06806E968CDE",
+            "trace": [
+              "SecurityGroup.addIngressRule (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/security-group.js:33:13)",
+              "SecurityGroup.addIngressRule (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/security-group.js:223:19)",
+              "/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/connections.js:89:31",
+              "ReactiveList.forEachAndForever (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/connections.js:191:13)",
+              "/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/connections.js:88:51",
+              "ReactiveList.forEachAndForever (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/connections.js:191:13)",
+              "Connections.allowFrom (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/connections.js:87:30)",
+              "ApplicationListener.registerConnectable (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/alb/application-listener.js:269:33)",
+              "ApplicationTargetGroup.registerListener (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/alb/application-target-group.js:87:22)",
+              "TargetGroupListenerAction.bind (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/alb/application-listener-action.js:216:16)",
+              "ApplicationListener.setDefaultAction (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/alb/application-listener.js:285:16)",
+              "ApplicationListener.addTargetGroups (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/alb/application-listener.js:157:18)",
+              "ApplicationListener.addTargets (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/alb/application-listener.js:190:14)",
+              "new WellArchitectedFrameworkLabs (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:38:18)",
+              "Object.<anonymous> (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:70:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/WellArchitectedFrameworkLabsStack/ASG/InstanceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ASGInstanceRoleE263A41B",
+            "trace": [
+              "new Role (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-iam/lib/role.js:41:22)",
+              "new AutoScalingGroup (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-autoscaling/lib/auto-scaling-group.js:133:35)",
+              "new WellArchitectedFrameworkLabs (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:23:21)",
+              "Object.<anonymous> (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:70:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/WellArchitectedFrameworkLabsStack/ASG/InstanceProfile": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ASGInstanceProfile0A2834D7",
+            "trace": [
+              "new AutoScalingGroup (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-autoscaling/lib/auto-scaling-group.js:138:28)",
+              "new WellArchitectedFrameworkLabs (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:23:21)",
+              "Object.<anonymous> (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:70:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/WellArchitectedFrameworkLabsStack/ASG/LaunchConfig": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ASGLaunchConfigC00AF12B",
+            "trace": [
+              "new AutoScalingGroup (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-autoscaling/lib/auto-scaling-group.js:146:30)",
+              "new WellArchitectedFrameworkLabs (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:23:21)",
+              "Object.<anonymous> (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:70:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/WellArchitectedFrameworkLabsStack/ASG/ASG": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ASG46ED3070",
+            "trace": [
+              "new AutoScalingGroup (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-autoscaling/lib/auto-scaling-group.js:221:33)",
+              "new WellArchitectedFrameworkLabs (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:23:21)",
+              "Object.<anonymous> (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:70:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/WellArchitectedFrameworkLabsStack/ASG/ScalingPolicyAModestLoad/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ASGScalingPolicyAModestLoadC5714E5A",
+            "trace": [
+              "new TargetTrackingScalingPolicy (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-autoscaling/lib/target-tracking-scaling-policy.js:17:25)",
+              "AutoScalingGroup.scaleOnRequestCount (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-autoscaling/lib/auto-scaling-group.js:80:24)",
+              "new WellArchitectedFrameworkLabs (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:43:13)",
+              "Object.<anonymous> (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:70:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/WellArchitectedFrameworkLabsStack/SsmParameterValue:--aws--service--ami-amazon-linux-latest--amzn-ami-hvm-x86_64-gp2:C96584B6-F00A-464E-AD19-53AFF4B05118.Parameter": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "SsmParameterValueawsserviceamiamazonlinuxlatestamznamihvmx8664gp2C96584B6F00A464EAD1953AFF4B05118Parameter",
+            "trace": [
+              "Function.fromStringParameterAttributes (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ssm/lib/parameter.js:130:15)",
+              "Function.valueForTypedStringParameter (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ssm/lib/parameter.js:197:21)",
+              "AmazonLinuxImage.getImage (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/machine-image.js:140:41)",
+              "new AutoScalingGroup (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-autoscaling/lib/auto-scaling-group.js:142:48)",
+              "new WellArchitectedFrameworkLabs (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:23:21)",
+              "Object.<anonymous> (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:70:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/WellArchitectedFrameworkLabsStack/LB/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "LB8A12904C",
+            "trace": [
+              "new BaseLoadBalancer (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/shared/base-load-balancer.js:24:26)",
+              "new ApplicationLoadBalancer (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/alb/application-load-balancer.js:15:9)",
+              "new WellArchitectedFrameworkLabs (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:31:20)",
+              "Object.<anonymous> (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:70:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/WellArchitectedFrameworkLabsStack/LB/SecurityGroup/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "LBSecurityGroup8A41EA2B",
+            "trace": [
+              "new SecurityGroup (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/security-group.js:173:30)",
+              "new ApplicationLoadBalancer (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/alb/application-load-balancer.js:20:53)",
+              "new WellArchitectedFrameworkLabs (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:31:20)",
+              "Object.<anonymous> (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:70:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/WellArchitectedFrameworkLabsStack/LB/SecurityGroup/to WellArchitectedFrameworkLabsStackASGInstanceSecurityGroup9D3F452F:80": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "LBSecurityGrouptoWellArchitectedFrameworkLabsStackASGInstanceSecurityGroup9D3F452F80F1FEE5A2",
+            "trace": [
+              "SecurityGroup.addEgressRule (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/security-group.js:48:13)",
+              "SecurityGroup.addEgressRule (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/security-group.js:249:19)",
+              "/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/connections.js:66:31",
+              "ReactiveList.forEachAndForever (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/connections.js:191:13)",
+              "/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/connections.js:65:51",
+              "ReactiveList.forEachAndForever (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/connections.js:191:13)",
+              "Connections.allowTo (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/connections.js:64:30)",
+              "Connections.allowFrom (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-ec2/lib/connections.js:95:31)",
+              "ApplicationListener.registerConnectable (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/alb/application-listener.js:269:33)",
+              "ApplicationTargetGroup.registerListener (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/alb/application-target-group.js:87:22)",
+              "TargetGroupListenerAction.bind (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/alb/application-listener-action.js:216:16)",
+              "ApplicationListener.setDefaultAction (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/alb/application-listener.js:285:16)",
+              "ApplicationListener.addTargetGroups (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/alb/application-listener.js:157:18)",
+              "ApplicationListener.addTargets (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/alb/application-listener.js:190:14)",
+              "new WellArchitectedFrameworkLabs (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:38:18)",
+              "Object.<anonymous> (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:70:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/WellArchitectedFrameworkLabsStack/LB/Listener/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "LBListener49E825B4",
+            "trace": [
+              "new BaseListener (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/shared/base-listener.js:11:26)",
+              "new ApplicationListener (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/alb/application-listener.js:24:9)",
+              "ApplicationLoadBalancer.addListener (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/alb/application-load-balancer.js:43:16)",
+              "new WellArchitectedFrameworkLabs (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:35:29)",
+              "Object.<anonymous> (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:70:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/WellArchitectedFrameworkLabsStack/LB/Listener/TargetGroup/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "LBListenerTargetGroupF04FCF6D",
+            "trace": [
+              "new TargetGroupBase (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/shared/base-target-group.js:31:25)",
+              "new ApplicationTargetGroup (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/alb/application-target-group.js:15:9)",
+              "ApplicationListener.addTargets (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-elasticloadbalancingv2/lib/alb/application-listener.js:179:23)",
+              "new WellArchitectedFrameworkLabs (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:38:18)",
+              "Object.<anonymous> (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:70:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/WellArchitectedFrameworkLabsStack/Instance/SubnetGroup": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "InstanceSubnetGroupF2CBA54F",
+            "trace": [
+              "new DatabaseInstanceNew (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-rds/lib/instance.js:207:29)",
+              "new DatabaseInstanceSource (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-rds/lib/instance.js:283:9)",
+              "new DatabaseInstance (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-rds/lib/instance.js:352:9)",
+              "new WellArchitectedFrameworkLabs (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:46:26)",
+              "Object.<anonymous> (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:70:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/WellArchitectedFrameworkLabsStack/Instance/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "InstanceC1063A87",
+            "trace": [
+              "new DatabaseInstance (/Users/sykang/Documents/Git/wellarchitectedtemplate/node_modules/@aws-cdk/aws-rds/lib/instance.js:360:26)",
+              "new WellArchitectedFrameworkLabs (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:46:26)",
+              "Object.<anonymous> (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:70:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/WellArchitectedFrameworkLabsStack/ALB-DNS": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ALBDNS",
+            "trace": [
+              "new WellArchitectedFrameworkLabs (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:57:9)",
+              "Object.<anonymous> (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:70:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/WellArchitectedFrameworkLabsStack/RDS-DNS": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "RDSDNS",
+            "trace": [
+              "new WellArchitectedFrameworkLabs (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:62:9)",
+              "Object.<anonymous> (/Users/sykang/Documents/Git/wellarchitectedtemplate/index.js:70:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "runtime": {
+    "libraries": {
+      "@aws-cdk/aws-autoscaling": "1.42.1",
+      "@aws-cdk/aws-ec2": "1.42.1",
+      "@aws-cdk/aws-iam": "1.42.1",
+      "@aws-cdk/core": "1.42.1",
+      "@aws-cdk/cx-api": "1.42.1",
+      "@aws-cdk/cloud-assembly-schema": "1.42.1",
+      "@aws-cdk/cdk-assets-schema": "1.42.1",
+      "@aws-cdk/region-info": "1.42.1",
+      "@aws-cdk/aws-ssm": "1.42.1",
+      "@aws-cdk/aws-logs": "1.42.1",
+      "@aws-cdk/aws-cloudwatch": "1.42.1",
+      "@aws-cdk/aws-s3": "1.42.1",
+      "@aws-cdk/aws-events": "1.42.1",
+      "@aws-cdk/aws-kms": "1.42.1",
+      "@aws-cdk/aws-elasticloadbalancingv2": "1.42.1",
+      "@aws-cdk/aws-autoscaling-common": "1.42.1",
+      "@aws-cdk/aws-rds": "1.42.1",
+      "@aws-cdk/aws-secretsmanager": "1.42.1",
+      "@aws-cdk/aws-lambda": "1.42.1",
+      "@aws-cdk/aws-sqs": "1.42.1",
+      "@aws-cdk/aws-s3-assets": "1.42.1",
+      "@aws-cdk/assets": "1.42.1",
+      "@aws-cdk/aws-sam": "1.42.1",
+      "jsii-runtime": "node.js/v12.12.0"
+    }
+  }
+}
